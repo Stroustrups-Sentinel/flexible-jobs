@@ -77,3 +77,12 @@
     - details       <string>
     - created       <date>
     - updated       <date>
+
+## notifications
+
+    - ownerId,      <number>
+    - recipientId,  <number>
+    - content,      <string>
+    - created,      <date>
+    - updated       <date>
+    - status        <string> [opened,new,marked]
