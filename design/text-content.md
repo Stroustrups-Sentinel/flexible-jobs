@@ -26,7 +26,9 @@
 19. Retail
 20. Space & Exploration
 21. Science & Research
-22. Other
+22. Arts
+23. Other
+
 
 ----
 > PAGES
