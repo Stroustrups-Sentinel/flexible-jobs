@@ -50,7 +50,7 @@
     - posted_on  <date>
     - expires,   <date>
     - description,      <string>
-    - qualifications    <string>
+    - qualifications    <string>   
     - education  <string>
     - status     <string>   [standby, waiting, published, approved, denied]
 

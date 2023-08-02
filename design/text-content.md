@@ -24,6 +24,9 @@
 17. Marketing
 18. Real Estate
 19. Retail
+20. Space & Exploration
+21. Science & Research
+22. Other
 
 ----
 > PAGES
