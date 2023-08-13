@@ -54,7 +54,7 @@
     - duration,     <string>
     - position      <string>   
     - type          <string[]> [remote, office, hybrid]
-    - documents         <string[]> [cv, resume, application letter, motivation letter]
+    - documents         <string[]> [cv, resume, application-letter, motivation-letter]
     - status        <string>   [standby, waiting, draft, published, approved, denied]
 
 ## Messages
