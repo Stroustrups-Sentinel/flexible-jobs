@@ -45,14 +45,14 @@
 
     - name,      <string>
     - email,     <string>
-    - pay,       <string>  [used string to cater for ranges and other specifics]
-    - branch,    <string>
-    - posted_on  <date>
+    - salary,       <string>  [used string to cater for ranges and other specifics]
+    - application_link,    <string>
+    - published_on  <date>
     - expires,   <date>
-    - description,      <string>
-    - qualifications    <string>   
+    - duration,      <string>
+    - position    <string>   
     - education  <string>
-    - status     <string>   [standby, waiting, published, approved, denied]
+    - status     <string>   [standby, waiting, draft, published, approved, denied]
 
 ## Messages
 
