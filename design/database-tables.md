@@ -14,6 +14,7 @@
     - fname     <string>,
     - lname     <string>,
     - email     <string>(unique),
+    - website   <string>
     - password  <string>,
     - type      <string>    [ admin, employer, employee ],
     - city      <string>    # these 3 make up the address for simplicity {city, county, street}
@@ -25,6 +26,7 @@
 
     - userId,   <string>(unique)
     - details,  <string>
+    - website   <string>
 
 ## Companies
 
@@ -43,16 +45,17 @@
 
 ## Jobs
 
-    - name,      <string>
-    - email,     <string>
+    - name,         <string>
+    - email,        <string>
     - salary,       <string>  [used string to cater for ranges and other specifics]
-    - application_link,    <string>
-    - published_on  <date>
-    - expires,   <date>
-    - duration,      <string>
-    - position    <string>   
-    - education  <string>
-    - status     <string>   [standby, waiting, draft, published, approved, denied]
+    - offsite_link,     <string>
+    - published_on      <date>
+    - expires,      <date>
+    - duration,     <string>
+    - position      <string>   
+    - type          <string[]> [remote, office, hybrid]
+    - documents         <string[]> [cv, resume, application letter, motivation letter]
+    - status        <string>   [standby, waiting, draft, published, approved, denied]
 
 ## Messages
 
@@ -69,14 +72,16 @@
     - favorite,  <bool>
     - appliedOn, <date>
     - status     <string>   [waiting, approved, denied]
+    - type       <string>   [office, remote, hybrid]
 
 ## files
 
-    - tag       <string> [avatar, resume, cv, ...]
-    - metadata  <string>
-    - extension <string> [jpeg, png, pdf, doc, ...]
-    - owner_id  <number>
-    - location  <string>
+    - tag               <string> [avatar, resume, cv, ...]
+    - metadata          <string>
+    - extension         <string> [jpeg, png, pdf, doc, ...]
+    - owner_id          <number>
+    - application_id    <string>
+    - location          <string>
 
 ## reports
 
