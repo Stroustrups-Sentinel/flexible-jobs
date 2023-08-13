@@ -10,7 +10,7 @@
 
 ## Users
 
-    - avatar    <string>,   # location metadata of file to be kept
+    - avatar    <string>,   # location of file to be kept
     - fname     <string>,
     - lname     <string>,
     - email     <string>(unique),
@@ -69,6 +69,14 @@
     - favorite,  <bool>
     - appliedOn, <date>
     - status     <string>   [waiting, approved, denied]
+
+## files
+
+    - tag       <string> [avatar, resume, cv, ...]
+    - metadata  <string>
+    - extension <string> [jpeg, png, pdf, doc, ...]
+    - owner_id  <number>
+    - location  <string>
 
 ## reports
 
