@@ -6,7 +6,7 @@
 
 ---
 
-> **NOTE** : all tables have an `id` field which will not be shown below.
+> **NOTE** : all tables have `id`,`created_at`,`updated_at` fields which will not be shown below.
 
 ## Users
 
@@ -42,6 +42,7 @@
     - industry, <string> [list from 19 items, in file: `text-content.md` heading:INDUSTRIES]
     - sector,   <string>    
     - status    <string>     [active, banned]
+    - 
 
 ## Jobs
 
@@ -67,11 +68,11 @@
 
 ## applications
 
-    - userId,    <number>
-    - companyId, <number>
+    - user_id,    <number>
+    - company_id, <number>
     - favorite,  <bool>
-    - appliedOn, <date>
-    - status     <string>   [waiting, approved, denied]
+    - applied_on, <date>
+    - status     <string>   [waiting, hold, approved, denied,cancelled]
     - type       <string>   [office, remote, hybrid]
 
 ## files
@@ -85,8 +86,9 @@
 
 ## reports
 
-    - reporterId    <number>
-    - userId        <number>
+    - reporter_id    <number>
+    - content_id        <number>
+    - type          <string> [job_post, job_application]
     - details       <string>
     - created       <date>
     - updated       <date>
