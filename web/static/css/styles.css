@@ -1,43 +1,66 @@
 /* Colours used in the project */
 .fj-primary {
-    color: #4ECDC4;
+    color: #4ECDC4 !important;
 }
 
 .fj-bg-primary {
-    background-color: #4ECDC4;
+    background-color: #4ECDC4 !important;
 }
 
 .fj-dark-primary {
-    color: #16504B;
+    color: #16504B !important;
 }
 
 .fj-bg-dark-primary {
-    background-color: #16504B;
+    background-color: #16504B !important;
 }
 
 .fj-light-primary {
-    color: #AFE9E4;
+    color: #AFE9E4 !important;
 }
 
 .fj-bg-light-primary {
-    background-color: #AFE9E4;
+    background-color: #AFE9E4 !important;
 }
 
 
 .fj-black {
-    color: #1a1a1a;
+    color: #1a1a1a !important;
 }
 
 .fj-bg-black {
-    background-color: #1a1a1a;
+    background-color: #1a1a1a !important;
 }
 
 .fj-white {
-    color: #f2f2f2;
+    color: #f2f2f2 !important;
 }
 
 .fj-bg-white {
-    background-color: #f2f2f2;
+    background-color: #f2f2f2 !important;
+}
+
+
+/* borders*/
+
+.fj-border-full {
+    border: 2px solid #1a1a1a;
+}
+
+.fj-border-bottom {
+    border-bottom: 2px solid #1a1a1a;
+}
+
+.fj-border-top {
+    border-top: 2px solid #1a1a1a;
+}
+
+.fj-border-right {
+    border-right: 2px solid #1a1a1a;
+}
+
+.fj-border-left {
+    border-left: 2px solid #1a1a1a;
 }
 
 /*shadows used on cards & buttons*/
