@@ -86,14 +86,23 @@
 ## Instructions
 
 1. Fork or Clone this repository.
-2. the code the `/web` folder.
-3. install the required pip packages, notably
+2. Check the sitemap and other useful resources in the `/docs` folder. 
+   - check the database tables in the `/docs/database-tables.md`
+   - design resources & a `pdf & img` exports are in the `/design` folder., they were made with [Lunacy](https://icons8.com/lunacy), and its a `.sketch` file so you can use any software you want to open it. Be it Lunacy, Sketch, Figma etc. `there might be porting issues but as long as there are exported result(s), which show what it should look lke , you'll be fairly/definitely okay.`
+3. the code is in the `/web` folder.
+   - the resources for the webapp are in the `/web/static` folder.
+4. install the required pip packages, notably
    1. django
    2. sqlite
-4. in the `/web` folder run the django server with `python manage.py runserver`
+5. in the `/web` folder run the django server with `python manage.py runserver`
 
 ## Usage ✨
 
 Clone the repo locally and run:
 
 `pip install -r requirements.txt`
+
+> Enjoy, have fun, keep pushing and happy learning ! :)
+
+---
+##### * Illustrations are attributed to [lunacy](https://icons8.com/lunacy) & [icons8](https://icons8.com) .
