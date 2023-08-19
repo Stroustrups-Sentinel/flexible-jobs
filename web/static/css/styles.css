@@ -1,0 +1,43 @@
+/* Colours used in the project */
+.fj-primary {
+    color: #4ECDC4;
+}
+
+.fj-bg-primary {
+    background-color: #4ECDC4;
+}
+
+.fj-dark-primary {
+    color: #16504B;
+}
+
+.fj-bg-dark-primary {
+    background-color: #16504B;
+}
+
+.fj-light-primary {
+    color: #AFE9E4;
+}
+
+.fj-bg-light-primary {
+    background-color: #AFE9E4;
+}
+
+
+.fj-black {
+    color: #1a1a1a;
+}
+
+.fj-bg-black {
+    background-color: #1a1a1a;
+}
+
+.fj-white {
+    color: #f2f2f2;
+}
+
+.fj-bg-white {
+    background-color: #f2f2f2;
+}
+
+/*shadows used on cards & buttons*/
